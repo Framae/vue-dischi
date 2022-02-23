@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="sfondo">
     <img :src="image" alt="">
   </div>
    
@@ -15,7 +15,9 @@ export default {
 </script>
 
 <style lang='scss' scoped>
-
+  .sfondo {
+    background-color: blue;
+  }
   img {
     width: 30px;
     height: 30px;

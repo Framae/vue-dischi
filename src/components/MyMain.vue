@@ -1,44 +1,45 @@
 <template>
-  <div class="container">
-  <div class="row align-items-start">
-    <div class="col">
-      One of three columns
+  <div class="container MyMain">
+    <div class="row align-items-start">
+        <div class="col">
+        One of three columns
+        </div>
+        <div class="col">
+        One of three columns
+        </div>
+        <div class="col">
+        One of three columns
+        </div>
     </div>
-    <div class="col">
-      One of three columns
-    </div>
-    <div class="col">
-      One of three columns
-    </div>
+    <div class="row align-items-center">
+        <div class="col">
+        One of three columns
+        </div>
+        <div class="col">
+        One of three columns
+        </div>
+        <div class="col">
+        One of three columns
+        </div>
   </div>
-  <div class="row align-items-center">
-    <div class="col">
-      One of three columns
+    <div class="row align-items-end">
+        <div class="col">
+        One of three columns
+        </div>
+        <div class="col">
+        One of three columns
+        </div>
+        <div class="col">
+        One of three columns
+        </div>
     </div>
-    <div class="col">
-      One of three columns
-    </div>
-    <div class="col">
-      One of three columns
-    </div>
-  </div>
-  <div class="row align-items-end">
-    <div class="col">
-      One of three columns
-    </div>
-    <div class="col">
-      One of three columns
-    </div>
-    <div class="col">
-      One of three columns
-    </div>
-  </div>
 </div>
 </template>
 
 <script>
-export default {
 
+export default {
+    name: 'MyMain'
 }
 </script>
 
