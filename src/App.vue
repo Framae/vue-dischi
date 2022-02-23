@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <MyHeader message="Spotify"/>
+    <MyHeader :image="url"/>
     <MyMain   />
   </div>
 </template>
@@ -13,10 +13,15 @@ export default {
   components: {
     MyHeader,
     MyMain
+  },
+  data() {
+    return {
+      url: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Spotify_App_Logo.svg/2048px-Spotify_App_Logo.svg.png'
+    }
   }
 }
 </script>
 
 <style lang="scss" scoped>
-
+  
 </style>
